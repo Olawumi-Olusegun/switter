@@ -68,7 +68,7 @@ const LoginModal = () => {
 
     const footerContent = (
         <div className='text-neutral-400 text-center mt-4'>
-            <p className='py-4'>Don't have an account?{" "}
+            <p className='py-4'>{`Don't have an account?`}
             <span
                 onClick={handleToggle}
                 className="
